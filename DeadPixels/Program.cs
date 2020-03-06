@@ -84,7 +84,7 @@ namespace DeadPixels
             }
 
 
-            // spatial complexity that method is O((x*y)^2)
+            // spatial complexity that method is O((x*y)*2)
             public void ClearGroupDeadPixels(char[][] monitor, int x, int y)
             {
                 List<Pixel> pixels = new List<Pixel>();
